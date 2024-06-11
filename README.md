@@ -1,1 +1,1 @@
-# atv-3-note
+# Neste repositório criei uma pagina com responsividade sobre minha séries favoritas para uma atividade de um curso da unifil

@@ -1,0 +1,285 @@
+body{
+  background: linear-gradient(to bottom, #d4d4d4 80%, #d4d4d4 80%);
+}
+
+body, ul, li, p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 1,2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+header {
+  background-color: black;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+}
+
+.menu {
+  display: flex;
+  background-color: #000000;
+  border: 2px solid #000000;
+  border-radius: 6px;
+}
+
+.menu li {
+  margin-left: 15px;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px;
+  background-color: #000000;
+  background: tomato;
+  border-radius: 10px;
+}
+
+.logo {
+  width: 200px;
+}
+
+/*
+.winchester {
+  width: 300px;
+  height: 420px;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+*/
+
+img {
+  max-width: 300px;
+  max-height: 400px;
+  display: block;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+
+/* .sobrenatural{
+  width: 300px;
+  height: 420px;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+
+.friends{
+  width: 300px;
+  height: 420px;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+
+.broklin{
+  width: 300px;
+  height: 420px;
+  border: 2px solid black;
+  border-radius: 6px;
+}*/
+/*
+.sectionImg::before, .sectionImg::after{
+  content: '';
+  display: table;
+}
+.sectionImg::after{
+  clear: both;
+}*/
+
+.sectionImg {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 24px;
+  margin: 0 auto;
+  max-width: 300px;
+  max-height: 600px;
+  float: left;
+}
+
+.sectionImg img{
+  display: block;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.sectionImg p {
+  display: block;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.sectionImg a {
+  display: block;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  margin-left: 63px;
+}
+
+.sectionImg div {
+  flex: 1 1 200px;
+  margin: 30px;
+  float: left;
+  
+}
+
+.container{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+aside div{
+  display: grid;
+  grid-gap: 30px;
+  grid-template-rows: 1fr, 1fr, 1fr, 1fr;
+  border: 2px solid black;
+  margin-left: 80%;
+  margin-right: 80px;
+  /* float: right; */
+}
+
+.sobreSerie{
+  text-align: center;
+  justify-content: center;
+  padding: 8px;
+  margin-top: 20px;
+  height: 360px;
+  background-color: #000000;
+}
+
+.sobreSerie h4{
+  margin: 2px 4px;
+  color: #A9F6FF;
+}
+
+.sobreSerie p{
+  font-size: 12px;
+  color: #4F8DFF;
+  background-color: #000000;
+}
+
+article {
+  background-color: #d4d4d4;
+}
+
+article div{
+  margin: 12px;
+  padding: 20px;
+  background-color: #e7e7e7;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+  margin-top: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+article p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #666;
+}
+
+footer{
+  width: 1479px;
+  background-color: black;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.container-footer{
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex: 1 1 200px;
+}
+
+.imgCopy img{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.imgCopy{
+  display: inline-block;
+  color: #FFFFFF;
+	font-size: 16px;
+  margin: 0 auto;
+}
+
+#footer-contato{
+  margin-bottom: 0.75rem;
+  
+}
+#footer-social_media{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 200px;
+  justify-content: left;
+  gap: 2rem;
+  margin-top: 1.5rem;
+  float: left;
+}
+
+.footer-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  color: var(--color-neutra-140);
+  border-radius: 50%;
+}
+#instagram{
+  background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+#facebook{
+  background-color: #4267b3;
+}
+#telegram{
+  background-color:  #024873;
+}
+
+.menuFooter{
+  background-color: #000000;
+  border: 2px solid #000000;
+  border-radius: 6px;
+  gap: 12px;
+  font-size: 20px;
+  width: 20%;
+  float: right;
+  display: flex;
+}
+
+.menuFooter li {
+  margin-right: 15px;
+  float: right;
+}
+
+.menuFooter li a {
+  display: inline-block;
+  padding: 10px;
+  background-color: #000000;
+  background: tomato;
+  border-radius: 10px;
+  right: 12px;
+}
