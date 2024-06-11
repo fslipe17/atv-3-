@@ -8,8 +8,6 @@ body, ul, li, p {
   list-style: none;
   font-size: 1,2rem;
   font-family: Arial, Helvetica, sans-serif;
-  
-  
 }
 
 a {
@@ -43,22 +41,14 @@ header {
   display: block;
   padding: 10px;
   background-color: #000000;
-  background: tomato;
+  background: rgb(185, 181, 240);
   border-radius: 10px;
+  color: #000000;
 }
 
 .logo {
   width: 200px;
 }
-
-/*
-.winchester {
-  width: 300px;
-  height: 420px;
-  border: 2px solid black;
-  border-radius: 6px;
-}
-*/
 
 img {
   max-width: 300px;
@@ -67,35 +57,6 @@ img {
   border: 2px solid black;
   border-radius: 6px;
 }
-
-/* .sobrenatural{
-  width: 300px;
-  height: 420px;
-  border: 2px solid black;
-  border-radius: 6px;
-}
-
-.friends{
-  width: 300px;
-  height: 420px;
-  border: 2px solid black;
-  border-radius: 6px;
-}
-
-.broklin{
-  width: 300px;
-  height: 420px;
-  border: 2px solid black;
-  border-radius: 6px;
-}*/
-/*
-.sectionImg::before, .sectionImg::after{
-  content: '';
-  display: table;
-}
-.sectionImg::after{
-  clear: both;
-}*/
 
 .sectionImg {
   display: grid;
@@ -158,6 +119,7 @@ aside div{
   justify-content: center;
   padding: 8px;
   margin-top: 20px;
+  max-width: 200px;
   height: 360px;
   background-color: #000000;
 }
@@ -168,7 +130,7 @@ aside div{
 }
 
 .sobreSerie p{
-  font-size: 12px;
+  font-size: 11px;
   color: #4F8DFF;
   background-color: #000000;
 }
@@ -199,54 +161,40 @@ article p {
   color: #666;
 }
 
+
 footer{
-  width: 1479px;
-  background-color: black;
-  font-size: 20px;
+  background-color: #000000;
   padding: 20px;
 }
 
-.container-footer{
-  width: 80%;
-  height: 80%;
-  display: flex;
-  flex: 1 1 200px;
+.conteiner-footer{
+  display: grid;
+  letter-spacing: 1px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
-.imgCopy img{
-  width: 100px;
-  height: 100px;
+.footer-contato{
   margin: 0 auto;
 }
 
-.imgCopy{
-  display: inline-block;
-  color: #FFFFFF;
-	font-size: 16px;
-  margin: 0 auto;
-}
-
-#footer-contato{
-  margin-bottom: 0.75rem;
-  
-}
-#footer-social_media{
+.footer-social_media{
   display: flex;
   flex-wrap: wrap;
-  flex: 1 1 200px;
-  justify-content: left;
+  flex: 1 1 100px;
   gap: 2rem;
   margin-top: 1.5rem;
-  float: left;
 }
-
+  
 .footer-link{
   display: flex;
   align-items: center;
   justify-content: center;
   height: 2.5rem;
   width: 2.5rem;
-  color: var(--color-neutra-140);
   border-radius: 50%;
 }
 #instagram{
@@ -259,27 +207,43 @@ footer{
   background-color:  #024873;
 }
 
-.menuFooter{
+.logoCopy{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoCopy > img{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.copyright{
+  color: #e7e7e7;
+  font-size: 16px;
+}
+
+
+.navBar {
   background-color: #000000;
   border: 2px solid #000000;
   border-radius: 6px;
-  gap: 12px;
-  font-size: 20px;
-  width: 20%;
-  float: right;
+}
+
+.menuFooter{
   display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+  gap: 20px;
 }
 
-.menuFooter li {
-  margin-right: 15px;
-  float: right;
-}
-
-.menuFooter li a {
-  display: inline-block;
+.navBar li a {
   padding: 10px;
   background-color: #000000;
-  background: tomato;
+  background: rgb(185, 181, 240);
   border-radius: 10px;
-  right: 12px;
+  margin: 0 auto;
+  color: #000000;
 }

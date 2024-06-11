@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Séries - Filmes</title>
+    <!-- <link rel="stylesheet" href="../css/style.css"> -->
+    <link rel="stylesheet" href="../css/contato.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @keyframes rotate360 {
+          from {
+            transform: rotateY(0deg);
+          }
+          to {
+            transform: rotateY(360deg);
+          }
+        }
+  
+        .curved-text {
+          color: white;
+          display: inline-block;
+          animation: rotate360 15s linear infinite;
+          transform-origin: center center;
+        }
+      </style>
+</head>
+<body>
+    <header>
+
+        <img class="logo" src="../img/logo.jpg" alt="logo">
+
+        <h1><span class="curved-text">Séries -- Filmes</span></h1>
+
+        <nav>
+          <ul class="menu">
+            <li><a href="./sobre.html">Sobre nós</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./login.html">Login/Cadastro</a></li>
+         </ul>
+        </nav>
+      </header>
+
+
+      <main>
+        <form>
+            <label for="nomesobrenome">Nome e sobrenome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao">
+            <label for="email">Enail</label>
+            <input type="text" id="email" class="input-padrao" >
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone" class="input-padrao">
+            
+
+            <label for="mensagem">Mensgem</label>
+            <textarea name="mensagem" id="mensagem" cols="60" rows="10" class="input-padrao"></textarea>
+
+            <div>
+                <p>Como prefere nosso contato</p>
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+                
+
+                <label for="radio-telefone"><input type="radio" name="contato" value="radio-telefone" id="radio-telefone">Telefone</label>
+                
+
+                <label for="radio-whatsapp"> <input type="radio" name="contato" value="radio-email" id="radio-whatsapp">Watsapp</label>
+               
+            </div>
+
+            <label class="checkbox"><input type="checkbox"> Gostaria de receber nossas novidades por email?</label>
+
+            <input class="button" type="submit" value="Enviar formulario">
+
+        </form>
+
+    </main>
+
+
+    <footer>
+
+        <div class="conteiner-footer">
+          <div class="footer-contato">
+            
+             <div class="footer-social_media">
+                 <a href="#" class="footer-link" id="instagram">
+                     <i class="fa-brands fa-instagram"></i>
+                 </a>
+                 <a href="#" class="footer-link" id="facebook">
+                     <i class="fa-brands fa-facebook"></i>
+                 </a>
+                 <a href="#" class="footer-link" id="telegram">
+                     <i class="fa-brands fa-telegram"></i>
+                 </a>
+            </div>
+          </div>
+  
+            <div class="logoCopy">
+            
+                  <img src="../img/logo.jpg">
+                  <p class="copyright">&copy; Copyright Séries -- Filmes - 2024</p>
+  
+            </div>
+  
+  
+            <div class="navBar">
+                <nav>
+                    <ul class="menuFooter">
+                        <li><a href="./paginas/sobre.html">Sobre nós</a></li>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="./login.html">Login/Cadastro</a></li>
+                    </ul>
+                </nav>
+            </div>
+      
+        </div>
+  
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,248 @@
+body{
+    background: linear-gradient(to bottom, #d4d4d4 80%, #d4d4d4 80%);
+}
+  
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1,2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+  
+header {
+    background-color: black;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+}
+  
+.menu {
+    display: flex;
+    background-color: #000000;
+    border: 2px solid #000000;
+    border-radius: 6px;
+}
+  
+.menu li {
+    margin-left: 15px;
+}
+  
+.menu li a {
+    display: block;
+    padding: 10px;
+    background-color: #000000;
+    background: rgb(185, 181, 240);
+    border-radius: 10px;
+    color: #000000;
+}
+  
+.logo {
+    width: 200px;
+}
+
+main{
+    gap: 40px;
+}
+
+.texto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 34px;
+    gap: 20px;
+    padding: 40px 4%;
+    
+}
+
+.texto h1{
+    margin: 24px;
+    color: #383333;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.texto p{
+    margin: 40px 0;
+}
+
+.imgRato{
+    /* position: relative;
+    border: 2px solid black;
+    border-radius: 28px;
+    object-fit: center;
+    clip-path: polygon(50% 10%, 99% 45%, 74% 75%, 28% 75%, 0 45%); */
+    border-radius: 50%;
+    width: 260px;
+    height: 300px;
+    margin: 0 auto;
+    animation: flutuar 2s ease-in-out infinite alternate;
+     
+}
+
+    /* box-shadow: 0px 0px 5px 2px black; */
+
+
+@keyframes flutuar {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: 30px;
+    }
+}
+
+img{
+    width: 200px;
+}
+
+.imgs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 34px;
+    gap: 20px;
+    padding: 40px 4%;
+    margin-top: 34px;
+    
+}
+
+.imgs div{
+    border: 2px solid #000000;
+    border-radius: 24px;
+    padding-top: 20px;
+    
+}
+
+.imgs div:hover{
+    transform: scale(1.02);
+    transition: 1s;
+    background: aliceblue;
+    box-shadow: 0px 0px 8px 4px black;
+}
+
+.imgs img{
+    /* box-shadow: 0px 0px 8px 4px black; */
+    display: block;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    border: 3px solid #000000;
+    border-radius: 24px;
+}
+
+.imgs p{
+    display: block;
+    flex-wrap: wrap;
+    padding: 38px;
+    margin: 10px;
+}
+
+.abobrinha h4{
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.abobrinha div{
+    margin: 24px;
+    padding: 30px;
+    background-color: #e7e7e7;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer{
+    background-color: #000000;
+    padding: 20px;
+}
+  
+.conteiner-footer{
+    display: grid;
+    letter-spacing: 1px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+  
+.footer-contato{
+    margin: 0 auto;
+}
+  
+.footer-social_media{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 100px;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+    
+.footer-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+}
+#instagram{
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+#facebook{
+    background-color: #4267b3;
+}
+#telegram{
+    background-color:  #024873;
+}
+  
+.logoCopy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.logoCopy > img{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+  
+.copyright{
+    color: #e7e7e7;
+    font-size: 16px;
+}
+  
+  
+.navBar {
+    background-color: #000000;
+    border: 2px solid #000000;
+    border-radius: 6px;
+}
+  
+.menuFooter{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    gap: 20px;
+}
+  
+.navBar li a {
+    padding: 10px;
+    background-color: #000000;
+    background: rgb(185, 181, 240);
+    border-radius: 10px;
+    margin: 0 auto;
+    color: #000000;
+}
